@@ -1,0 +1,15 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav, a{
+    text-decoration: none;
+    color:firebrick;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 5vh;
+    
+}
+a:hover{
+    font-size: 22px;
+    color:yellowgreen
+}

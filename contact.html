@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+<!-- this is the navigation bar -->
+<header>
+    <nav style="padding-bottom: 20px; padding-top:10px;">
+        <a href="/index.html"><b>Home</b></a>
+        <a href="/attraction.html"><b>Attraction</b></a>
+        <a href="/contact.html"><b>Contact</b></a>
+        <a href="about.html"><b>about us</b></a>
+    </nav>
+        <section class="gradient-text">
+            <h2>We appriciate all the feedback.</h2>
+                <p> please fill up the form down below.
+                 We will response back with in 24 hours</p>
+        </section>
+    <section>
+        <form action="https://httpbin.org/post" method="post">
+        <input type="text" name="name" id="name" required autofocus placeholder="Name"><br>
+        <input type="email" name="email" id="email" required placeholder="Your email address"> <br>
+        <select name="reason" id="reason">
+            <option value="reason"> Reason to Contact</option>
+            <option value="wrong">Wrong Information</option>
+            <option value="update">Update</option>
+            <option value="support">provide the support</option>
+            <option value="feedback">feedback</option>
+        </select>
+        <br>
+        <input type="text" name="subject" id="subject" placeholder="Subject">
+        <br>
+        <textarea name="text" id="message" cols="30" rows="10" maxlength="500" placeholder="Add message"></textarea>
+<br>    
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    </section>
+</header>
+<body>
+    <footer>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+</body>
+</html>
