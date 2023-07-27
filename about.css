@@ -13,3 +13,35 @@ a:hover{
     font-size: 22px;
     color:yellowgreen
 }
+
+ .wrapper{
+    width:1000px;
+    margin:auto;
+
+    
+ }
+
+
+main , h2{
+    text-align: center;
+}
+
+.map{
+    float:right;
+    margin-right: 20vh;
+    margin-top:-2vh;
+    height: 250px;
+    
+}
+.footer {
+    
+    /* Create the gradient. */
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(to right, rgb(184, 228, 250) , rgb(120, 231, 162));
+    text-align: center;
+    color:white;
+    font-size: 25px;
+    padding-top: 30px;
+    
+}

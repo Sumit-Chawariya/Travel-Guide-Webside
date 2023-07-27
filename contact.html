@@ -20,15 +20,17 @@
                  We will response back with in 24 hours</p>
         </section>
     <section>
-        <form action="https://httpbin.org/post" method="post">
+        <form action="https://httpbin.org/post" method="post" align="center">
         <input type="text" name="name" id="name" required autofocus placeholder="Name"><br>
         <input type="email" name="email" id="email" required placeholder="Your email address"> <br>
         <select name="reason" id="reason">
-            <option value="reason"> Reason to Contact</option>
+
+            <optgroup label="Reason to contact"> 
             <option value="wrong">Wrong Information</option>
             <option value="update">Update</option>
-            <option value="support">provide the support</option>
+            <option value="Advise">Advise</option>
             <option value="feedback">feedback</option>
+        </optgroup>
         </select>
         <br>
         <input type="text" name="subject" id="subject" placeholder="Subject">
@@ -42,9 +44,11 @@
 </header>
 <body>
     <footer>
+        <section>
         <p>
             <a href="#">Back to top</a>
         </p>
+    </section>
     </footer>
 </body>
 </html>
