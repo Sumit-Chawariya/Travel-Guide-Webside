@@ -4,51 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="contact.css">
+    <link rel="shortcut icon" href="guide.png" type="image/x-icon">
     <title>Document</title>
 </head>
+<body>
 <!-- this is the navigation bar -->
-<header>
-    <nav style="padding-bottom: 20px; padding-top:10px;">
-        <a href="/index.html"><b>Home</b></a>
-        <a href="/attraction.html"><b>Attraction</b></a>
-        <a href="/contact.html"><b>Contact</b></a>
-        <a href="about.html"><b>about us</b></a>
-    </nav>
+    <header>
+        <nav style="padding-bottom: 20px; padding-top:10px;">
+            <a href="/index.html"><b>Home</b></a>
+            <a href="/attraction.html"><b>Attraction</b></a>
+            <a href="/contact.html"><b>Contact</b></a>
+            <a href="about.html"><b>about us</b></a>
+        </nav>
+    </header>
+    <main>
         <section class="gradient-text">
             <h2>We appriciate all the feedback.</h2>
                 <p> please fill up the form down below.
                  We will response back with in 24 hours</p>
         </section>
-    <section>
-        <form action="https://httpbin.org/post" method="post" align="center">
-        <input type="text" name="name" id="name" required autofocus placeholder="Name"><br>
-        <input type="email" name="email" id="email" required placeholder="Your email address"> <br>
-        <select name="reason" id="reason">
-
-            <optgroup label="Reason to contact"> 
-            <option value="wrong">Wrong Information</option>
-            <option value="update">Update</option>
-            <option value="Advise">Advise</option>
-            <option value="feedback">feedback</option>
-        </optgroup>
-        </select>
-        <br>
-        <input type="text" name="subject" id="subject" placeholder="Subject">
-        <br>
-        <textarea name="text" id="message" cols="30" rows="10" maxlength="500" placeholder="Add message"></textarea>
-<br>    
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button>
-    </form>
-    </section>
-</header>
-<body>
+            <div >
+            <form action="https://httpbin.org/post" method="post" class="form">
+            <input type="text" name="name" id="name" required autofocus placeholder="Name"><br>
+            <input type="email" name="email" id="email" required placeholder="Your email address"> <br>
+            <input type="tel" name="phoneno" id="phoneno" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+            <select name="reason" id="reason" required>
+                 <optgroup label="Reason to contact"> 
+                <option value="wrong">Wrong Information</option>
+                <option value="update">Update</option>
+                <option value="Advise">Advise</option>
+                <option value="feedback">feedback</option>
+            </optgroup>
+            </select>
+            <br>
+            <input type="text" name="subject" id="subject" placeholder="Subject" required>
+            <br>
+            <textarea name="text" id="message" cols="30" rows="10" maxlength="500" placeholder="Add message"></textarea>
+    <br> 
+            <input type="checkbox" name="rememberme" id="rememberme">Rember me <br><br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+    </main>
     <footer>
-        <section>
+        <div>
+            <p>copy right &copy; 2022-2023 by Sumit.</p>
         <p>
             <a href="#">Back to top</a>
         </p>
-    </section>
+     </div>
     </footer>
 </body>
 </html>
