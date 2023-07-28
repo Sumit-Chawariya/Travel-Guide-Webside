@@ -1,7 +1,8 @@
+/* to change the font style on the website */
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
-
+/* this to decorate the navigation bar */
 nav, a{
     text-decoration: none;
     color:firebrick;
@@ -9,15 +10,18 @@ nav, a{
     font-size: 20px;
     padding-left: 5vh;    
 }
+/* to add hover on the links on the page */
 a:hover{
     font-size: 22px;
     color:yellowgreen
 }
+/* to align the heading 1 */
 h1{
     text-align: center;
 
 }
 
+/* to add the gradient container under the navigation bar */
 .gradient-text {
     
     /* Create the gradient. */
@@ -30,7 +34,7 @@ h1{
     padding-top: 30px;
 
 }
-
+/* to deore the input boxes */
 input[type=text], select, textarea {
   width: 30%;
   padding: 12px;
@@ -63,7 +67,7 @@ input[type=email], select, textarea {
     resize: vertical;
   }
 
-  
+  /* decoration for buttons */
 button[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -88,6 +92,7 @@ button[type=submit]:hover {
 button[type=reset]:hover {
     background-color: #45a049;
   }
+  /* to align the form in center */
 .form{
   text-align: center;
 }

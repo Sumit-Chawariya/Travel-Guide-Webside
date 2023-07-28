@@ -17,24 +17,25 @@
             <a href="about.html"><b>about us</b></a>
         </nav>
     </header>
+    <!-- to create gradient container for the page decoration -->
     <main>
         <section class="gradient-text">
             <h2>We appriciate all the feedback.</h2>
                 <p> please fill up the form down below.
                  We will response back with in 24 hours</p>
         </section>
+        <!-- this to make the form -->
             <div >
             <form action="https://httpbin.org/post" method="post" class="form">
             <input type="text" name="name" id="name" required autofocus placeholder="Name"><br>
             <input type="email" name="email" id="email" required placeholder="Your email address"> <br>
             <input type="tel" name="phoneno" id="phoneno" placeholder="000-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
-            <select name="reason" id="reason" required>
-                 <optgroup label="Reason to contact"> 
+            <select name="reason" id="reason">
+                 <optgroup label="Reason to contact"> </optgroup>
                 <option value="wrong">Wrong Information</option>
                 <option value="update">Update</option>
                 <option value="Advise">Advise</option>
                 <option value="feedback">feedback</option>
-            </optgroup>
             </select>
             <br>
             <input type="text" name="subject" id="subject" placeholder="Subject" required>
@@ -46,8 +47,10 @@
                 <button type="reset">Reset</button>
             </form>
         </div>
+        <!-- form end here -->
     </main>
     <footer>
+        <!-- to add the copyright -->
         <div>
             <p>copy right &copy; 2022-2023 by Sumit.</p>
         <p>

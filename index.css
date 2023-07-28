@@ -1,6 +1,8 @@
+/* to change the font style on the website */
 body{
     font-family:Arial, Helvetica, sans-serif;
 }
+/* this to decorate the navigation bar */
 nav, a{
     text-decoration: none;
     color:firebrick;
@@ -9,18 +11,22 @@ nav, a{
     padding-left: 5vh;
     
 }
+/* to create the hover effect on links */
 a:hover{
     font-size: 22px;
     color:yellowgreen
 }
+/* to adjust the all the text in the center */
 main{
     padding-right:5vh;
     padding-left:5vh;
 }
+/* to algin the headings in center */
 h1, h2{
     text-align: center;
 
 }
+/* to adjust the video */
 iframe{
     width:50%; 
     height:500px;
